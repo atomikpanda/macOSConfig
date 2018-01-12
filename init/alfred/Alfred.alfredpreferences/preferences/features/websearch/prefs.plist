@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>126B5E23-458E-4619-B06C-94BDC1007488</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>dict</string>
+			<key>spaces</key>
+			<string>+</string>
+			<key>text</key>
+			<string>define '{query}' on dictionary.com</string>
+			<key>url</key>
+			<string>http://www.dictionary.com/browse/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>1811D4EF-9D70-4B2A-AB33-6BB681551969</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>thes</string>
+			<key>spaces</key>
+			<string>+</string>
+			<key>text</key>
+			<string>thesaurus.com for '{query}'</string>
+			<key>url</key>
+			<string>http://www.thesaurus.com/browse/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>8B091B1B-D248-4CFD-ADE5-61E04C6CC3A4</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>so</string>
+			<key>spaces</key>
+			<string>+</string>
+			<key>text</key>
+			<string>Search stackoverflow for '{query}'</string>
+			<key>url</key>
+			<string>https://stackoverflow.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
